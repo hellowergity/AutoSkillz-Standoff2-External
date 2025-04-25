@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/close_view"
+        android:background="@drawable/close_floating_bg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/close_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_close_floating" />
+</FrameLayout>

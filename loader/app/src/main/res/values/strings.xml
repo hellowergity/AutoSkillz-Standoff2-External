@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AutoSkillzEx</string>
+    <string name="NULL" />
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="home">Home</string>
+    <string name="tools">Tools</string>
+    <string name="cheat_status">Cheat Status</string>
+    <string name="logcat">Logcat</string>
+    <string name="others">Others</string>
+    <string name="about">About</string>
+    <string name="about_title">AutoSkillzEx\nAn external cheat for Standoff 2\nDeveloped by Wergity</string>
+    <string name="version">Version: 1.0 (Beta)</string>
+    <string name="contacts">Contacts</string>
+    <string name="telegram">&gt; Telegram &lt;</string>
+    <string name="github">&gt; GitHub &lt;</string>
+    <string name="logcat_refresh">Refresh</string>
+    <string name="logcat_save">Save</string>
+    <string name="cheat_status_info">"Cheat Status: "</string>
+    <string name="cheat_status_idle">Idle</string>
+    <string name="stop_cheat">Stop cheat</string>
+    <string name="run_cheats">Run cheats</string>
+    <string name="close_menu">CLOSE MENU</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:icon="@drawable/ic_logcat_refresh"
+        android:id="@+id/logcat_refresh"
+        android:title="@string/logcat_refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_logcat_save"
+        android:id="@+id/logcat_save"
+        android:title="@string/logcat_save"
+        app:showAsAction="ifRoom" />
+</menu>

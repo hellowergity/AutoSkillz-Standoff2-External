@@ -1,0 +1,20 @@
+[versions]
+agp = "8.9.1"
+topjohnwu = "6.0.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+fadingTextView = "3.3"
+constraintlayout = "2.2.1"
+
+[libraries]
+superuser = { module = "com.github.topjohnwu.libsu:core", version.ref = "topjohnwu" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+fadingTextView = { module = "com.github.rosenpin:fading-text-view", version.ref = "fadingTextView" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="game_text">
+        <item>&gt;.&lt;</item>
+        <item>Choose a game.</item>
+    </string-array>
+
+    <string-array name="home_text">
+        <item>&gt;.&lt;</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="post_activity_drawer_text">
+        <item>By AutoSkillz.net</item>
+        <item>Best catnips</item>
+    </string-array>
+</resources>

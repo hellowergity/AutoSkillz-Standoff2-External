@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_menu_home" />
+
+    <item android:title="@string/tools">
+        <menu>
+            <item
+                android:id="@+id/drawer_status"
+                android:title="@string/cheat_status"
+                android:icon="@drawable/ic_menu_status" />
+
+            <item
+                android:id="@+id/drawer_logcat"
+                android:title="@string/logcat"
+                android:icon="@drawable/ic_menu_logcat" />
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/drawer_about"
+                android:title="@string/about"
+                android:icon="@drawable/ic_menu_about" />
+        </menu>
+    </item>
+</menu>

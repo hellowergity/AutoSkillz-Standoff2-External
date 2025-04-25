@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <queries>
+        <package android:name="com.axlebolt.standoff2" />
+        <package android:name="com.SKITLSE.StandRise" />
+    </queries>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:name=".App"
+        android:supportsRtl="true"
+        android:extractNativeLibs="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AutoSkillzEx.Dark">
+
+        <activity
+            android:name=".PreActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".GameActivity"
+            android:exported="true" />
+
+        <activity
+            android:theme="@style/Theme.AutoSkillzEx.Light"
+            android:name=".PostActivity" />
+
+        <service
+            android:foregroundServiceType="specialUse"
+            android:name=".floating.OverlayService" />
+
+        <service
+            android:foregroundServiceType="specialUse"
+            android:name=".floating.MenuService" />
+    </application>
+</manifest>

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.AutoSkillzEx.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowSplashScreenBackground" tools:ignore="NewApi">@color/black</item>
+
+        <item name="alertDialogTheme">@style/Style.AutoSkillzEx.Dialog</item>
+    </style>
+
+    <style name="Theme.AutoSkillzEx.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowSplashScreenBackground" tools:ignore="NewApi">@color/black</item>
+
+        <item name="alertDialogTheme">@style/Style.AutoSkillzEx.Dialog</item>
+    </style>
+</resources>

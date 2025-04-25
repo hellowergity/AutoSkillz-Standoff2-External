@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="?actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/game_activity_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_kitty_logo" />
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:id="@+id/game_activity_cat"
+        android:textColor="#FF000000"
+        android:textStyle="bold|italic"
+        android:paddingBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#FF660000"
+        android:shadowDx="4.0"
+        android:shadowDy="4.0"
+        android:shadowRadius="8.0"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/game_activity_logo"
+        app:fadingTextViewTexts="@array/game_text"
+        app:fadingTextViewTimeout="900" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/game_activity_list"
+        android:layout_below="@id/game_activity_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="#111111"
+        android:divider="#111111"
+        android:dividerHeight="10dp"
+        android:scrollbars="none" />
+</RelativeLayout>

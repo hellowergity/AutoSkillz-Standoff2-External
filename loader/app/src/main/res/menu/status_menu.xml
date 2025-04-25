@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/status_start"
+        android:icon="@drawable/ic_status_start"
+        android:title="@string/run_cheats"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/status_stop"
+        android:icon="@drawable/ic_status_stop"
+        android:title="@string/stop_cheat"
+        app:showAsAction="ifRoom" />
+</menu>
